@@ -1,0 +1,30 @@
+Package: friedman
+Title: Nonparametric Repeated Measures Analysis via Friedman's Test
+Version: 0.0.0.9000
+Authors@R: person("Ian", "Alloway",
+    email = "ianalloway@usf.edu",
+    role = c("aut", "cre"),
+    comment = c(ORCID = ""))
+Description: Provides a complete workflow for Friedman's nonparametric
+    two-way analysis of variance by ranks. Includes the core test,
+    Kendall's W effect size, pairwise post-hoc comparisons via the
+    Nemenyi test, ggplot2-based visualizations, and a report generator
+    for publication-ready output. Designed for researchers analyzing
+    repeated-measures data that violates normality assumptions.
+Depends:
+    R (>= 3.1.2)
+Imports:
+    ggplot2,
+    dplyr,
+    tidyr,
+    broom,
+    PMCMRplus
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/ianalloway/friedman
+BugReports: https://github.com/ianalloway/friedman/issues
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown

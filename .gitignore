@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+*.Rproj
+/man/
+/doc/
+/Meta/
+*.o
+*.so
+*.dll
+.DS_Store
